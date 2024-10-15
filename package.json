@@ -1,40 +1,40 @@
 {
-    "name": "device-check",
-    "version": "2.3.1",
-    "license": "MIT",
-    "description": "A Promise-based Node.js client for the Apple device check API",
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
-    "dependencies": {
-        "node-fetch": "2.6.7",
-        "uuid": "3.3.2"
-    },
-    "devDependencies": {
-        "@types/node": "14.14.9",
-        "@types/node-fetch": "2.1.2",
-        "@types/uuid": "3.4.4",
-        "@typescript-eslint/eslint-plugin": "4.8.1",
-        "@typescript-eslint/parser": "4.8.1",
-        "eslint": "7.14.0",
-        "typescript": "4.1.2"
-    },
-    "scripts": {
-        "lint": "npx eslint . --ext .js,.jsx,.ts,.tsx",
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "prepublishOnly": "rm -rf ./dist && ./node_modules/typescript/bin/tsc"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/PepperHQ/ios-device-check.git"
-    },
-    "keywords": [
-        "device-check",
-        "apple",
-        "ios"
-    ],
-    "author": "Dominic Rathbone",
-    "bugs": {
-        "url": "https://github.com/PepperHQ/ios-device-check/issues"
-    },
-    "homepage": "https://github.com/PepperHQ/ios-device-check#readme"
+  "name": "@floornfts/device-check",
+  "version": "2.3.1",
+  "license": "MIT",
+  "description": "A Promise-based Node.js client for the Apple device check API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "node-fetch": "2.6.7",
+    "uuid": "3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "14.14.9",
+    "@types/node-fetch": "2.1.2",
+    "@types/uuid": "3.4.4",
+    "@typescript-eslint/eslint-plugin": "4.8.1",
+    "@typescript-eslint/parser": "4.8.1",
+    "eslint": "7.14.0",
+    "typescript": "4.1.2"
+  },
+  "scripts": {
+    "lint": "npx eslint . --ext .js,.jsx,.ts,.tsx",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "rm -rf ./dist && ./node_modules/typescript/bin/tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PepperHQ/ios-device-check.git"
+  },
+  "keywords": [
+    "device-check",
+    "apple",
+    "ios"
+  ],
+  "author": "Dominic Rathbone",
+  "bugs": {
+    "url": "https://github.com/PepperHQ/ios-device-check/issues"
+  },
+  "homepage": "https://github.com/PepperHQ/ios-device-check#readme"
 }
